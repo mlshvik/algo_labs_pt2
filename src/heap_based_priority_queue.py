@@ -27,7 +27,7 @@ class BinaryHeap(object):
 
     def node_down(self, i):
         while 2 * i + 1 < len(self):
-            mc = self.min_child(i)+
+            mc = self.min_child(i)
             if self.items[i].priority > self.items[mc].priority:
                 self.items[i], self.items[mc] = self.items[mc], self.items[i]
             i = mc

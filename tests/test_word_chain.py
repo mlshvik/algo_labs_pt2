@@ -1,7 +1,5 @@
 import unittest
-from word_chain import Solution, read_input, write_output
-
-
+from src.word_chain import (Solution, read_input, write_output)
 class TestWChain(unittest.TestCase):
 
     def setUp(self):

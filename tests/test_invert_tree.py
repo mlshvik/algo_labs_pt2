@@ -1,5 +1,5 @@
 import unittest
-from invert_tree import BinaryTree, MirrorTree
+from src.invert_tree import BinaryTree, MirrorTree
 
 class TestBinaryTree(unittest.TestCase):
     def setUp(self):

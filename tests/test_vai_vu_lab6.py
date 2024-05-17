@@ -1,5 +1,5 @@
 import unittest
-from vai_vu_lab6 import Solution
+from src.vai_vu_lab6 import Solution
 
 class TestSolution(unittest.TestCase):
     def setUp(self):

@@ -21,8 +21,8 @@ def write_output(file_name, result):
 
 
 def main():
-    input_file = 'wchain.in'
-    output_file = 'wchain.out'
+    input_file = r'D:\унік\гіти\algo_labs_pt2\tests\wchain.in'
+    output_file = r'D:\унік\гіти\algo_labs_pt2\tests\wchain.out'
 
     N, words = read_input(input_file)
     solution = Solution()
